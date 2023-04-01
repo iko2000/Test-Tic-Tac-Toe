@@ -58,12 +58,15 @@ divs.forEach((el) =>
     }
     if (count === 7) {
       el.classList.add("tic");
+     wincheck()
     }
     if (count === 8) {
       el.classList.add("toe");
+     wincheck()
     }
     if (count === 9) {
       el.classList.add("tic");
+     wincheck()
     }
   })
 );
